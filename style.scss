@@ -43,6 +43,19 @@ body {
   width: 100%;
   border-radius: 30px;
   border: 5px ridge #ff1c2e;
+/* The animation code */
+	example {
+		from {background-color: orange;}
+		to {background-color: red;}
+	}
+	
+	/* The element to apply the animation to */
+	div {
+		width: 740px;
+		height: 100px;
+		background-color: red;
+		animation-name: example;
+		animation-duration: 15s;
 }
 
 h1, h2, h3, h4, h5, h6 {
