@@ -33,15 +33,11 @@ body {
   border-radius: 30px;
   border: 5px ridge #ff1c2e;
 	
-		/* The animation code */
-@keyframes example {
-  from {background-color: orange;}
-  to {background-color: red;}
-}
+		
+
 }
 
 
-	
 /* The element to apply the animation to */
 .div {
 	width: 740px;
@@ -50,6 +46,13 @@ body {
 	animation-name: example;
 	animation-duration: 15s;
 }
+
+/* The animation code */
+@keyframes example {
+  from {background-color: orange;}
+  to {background-color: red;}
+}
+	
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
