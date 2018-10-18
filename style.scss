@@ -18,25 +18,26 @@ html {
 }
 
 body {
-      background-image: url("https://abstracthdwallpapers.files.wordpress.com/2012/09/black-background-metal-texture-wallpaper-2560x1600.jpg");
+ background-image: url("https://abstracthdwallpapers.files.wordpress.com/2012/09/black-background-metal-texture-wallpaper-2560x1600.jpg");
  font: 18px/1.4 $helvetica;
  color: $black;
 
 }
 
 .container {
-	background-color: rgba(128, 128, 128, 0.8);
+  background-color: rgba(128, 128, 128, 0.8);
   margin: 0 auto;
   max-width: 940px;
   padding: 0 10px;
   width: 100%;
   border-radius: 30px;
   border: 5px ridge #ff1c2e;
-/* The animation code */
+
+	/* The animation code */
 @keyframes example
  {
-		from {background-color: orange;}
-		to {background-color: red;}
+  from {background-color: orange;}
+  to {background-color: red;}
 	}
 	
 /* The element to apply the animation to */
